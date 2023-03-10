@@ -1,107 +1,117 @@
-/* selector:etiqueta, class, id */
-/* propiedad: valor */
-
-/* CMD+K > CMD+C  COMENTARIO */
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
-*{
-    margin:0;
-    padding:0;
-}
-
-body{
-    background-color: rgb(53, 53, 53);
-    /* POR APLICAR: background-image: url(../img/background.jpg) ; background-repeat: repeat ; ; */
-    color: yellow;
-}
-
+@import "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap";
 /* fonts.google.com */
-p{
-    font-family: 'Roboto', sans-serif;
-    font-weight: bolder;
-    font-style: oblique;
-    font-size: 15px;
-    line-height: 40px;
-    letter-spacing: 3px;
-    word-spacing: 5px;
-    color:yellow;
-}
-a{
-    text-decoration: none;
-}
-.primerParrafo{
-    padding: 15px;
-    border: 1px dotted yellow;
-    margin: 10px;
-    font-style: italic;
-    text-align: center;
-    color:greenyellow;
-    text-transform: uppercase;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.comic{
-    padding: 15px;
-    border: 10px inset yellow;
-    margin: 10px;
-    border-radius: 5%;
+body {
+  background-color: rgb(53, 53, 53);
+  color: yellow;
 }
-header{
-    background-color: yellow;
-    padding: 35px;
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  font-style: oblique;
+  font-size: 15px;
+  line-height: 40px;
+  letter-spacing: 3px;
+  word-spacing: 5px;
+  color: yellow;
 }
-ul{
-    list-style-type: none;
+
+a {
+  text-decoration: none;
 }
-ul li{
-    display:inline-block;
+
+.primerParrafo {
+  padding: 15px;
+  border: 1px dotted yellow;
+  margin: 10px;
+  font-style: italic;
+  text-align: center;
+  color: greenyellow;
+  text-transform: uppercase;
 }
-h1{
-    padding: 40px;
-    border: 10px solid yellow;
-    margin: 10px;
-    font-size: 40px;
+
+.comic {
+  padding: 15px;
+  border: 10px inset yellow;
+  margin: 10px;
+  border-radius: 5%;
 }
-.textoCentrado{
-    margin-top: 40px;
-    text-align: center;
+
+h1 {
+  padding: 40px;
+  border: 10px solid yellow;
+  margin: 10px;
+  font-size: 40px;
 }
-.vineta{
-    text-align: center;
-    border: 3px solid yellow;
-    border-radius: 50cm;
+
+.textoCentrado {
+  margin-top: 40px;
+  text-align: center;
 }
+
+.vineta {
+  text-align: center;
+  border: 3px solid yellow;
+  border-radius: 50cm;
+}
+
+.imagenTitulo {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.intro {
+  padding: 15px;
+  border: 10px dotted yellow;
+  margin: 10px;
+  text-align: justify;
+}
+
+h2 {
+  padding: 40px;
+  margin: 10px;
+}
+
+header {
+  background-color: yellow;
+  padding: 35px;
+}
+
+ul {
+  list-style-type: none;
+}
+ul li {
+  display: inline-block;
+}
+
 nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-.redes{
-    margin: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+
+.redes {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
+
 footer {
-    display: block;
-    background-color: rgb(20, 20, 20);
+  display: block;
+  background-color: rgb(20, 20, 20);
 }
+
 .icon {
-    width: 48px;
-    height: 48px;
+  width: 48px;
+  height: 48px;
 }
-.imagenTitulo{
-    display: flex;
-    justify-content: center;
-    width:100%;
-    margin-top: 30px;
-}
-.intro{
-    padding: 15px;
-    border: 10px dotted yellow;
-    margin: 10px;
-    text-align: justify;
-}
-h2{
-    padding: 40px;
-    margin: 10px;
-}
+
+/*# sourceMappingURL=style.css.map */

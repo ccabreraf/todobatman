@@ -1,0 +1,17 @@
+header {
+	background-color: $background-color_2;
+	padding: 35px;
+}
+ul {
+	list-style-type: none;
+	li {
+		display: inline-block;
+	}
+}
+nav {
+	ul {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}
