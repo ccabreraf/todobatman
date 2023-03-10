@@ -48,24 +48,32 @@
     <main>
         <h1 class="vineta">Contacto</h1>
 
-        <form class="textoCentrado intro" action="formulario.php">
+        <form class="textoCentrado container-fluid mx-auto" style="width: auto;" action="formulario.php">
             <fieldset>
                 <legend> Cuentanos de ti</legend>
                 <div>
                     <label for="">Tu nombre</label>
-                    <input type="text" name="" id="">
+                    <div>
+                        <input type="text" name="" id="">
+                    </div>
                 </div>
                 <div>
                     <label for="pais">¿De que pais eres?</label>
-                    <select name="pais" id="pais">
-                        <option value="chi">Chile</option>
-                        <option value="arg">Argentina</option>
-                        <option value="per">Peru</option>
-                    </select>
+                    <div>
+                        <select name="pais" id="pais">
+                            <option value="chi">Chile</option>
+                            <option value="arg">Argentina</option>
+                            <option value="per">Peru</option>
+                        </select>
+                    </div>
+                    
                 </div>
                 <div>
                     <label for="observaciones">Ingrese dudas</label>
-                    <textarea type="text" name="observaciones"></textarea>
+                    <div>
+                        <textarea type="text" name="observaciones"></textarea>
+                    </div>
+                    
                     <div>
                         <input type="submit" value="Enviar info" />
                         <input type="reset" value="Borrar info" />
