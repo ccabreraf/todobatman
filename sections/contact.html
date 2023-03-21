@@ -47,47 +47,17 @@
     </header>
     <main>
         <h1 class="vineta">Contacto</h1>
-
-        <form class="textoCentrado container-fluid mx-auto" style="width: auto;" action="formulario.php">
-            <fieldset>
-                <legend> Cuentanos de ti</legend>
-                <div>
-                    <label for="">Tu nombre</label>
-                    <div>
-                        <input type="text" name="" id="">
-                    </div>
-                </div>
-                <div>
-                    <label for="pais">¿De que pais eres?</label>
-                    <div>
-                        <select name="pais" id="pais">
-                            <option value="chi">Chile</option>
-                            <option value="arg">Argentina</option>
-                            <option value="per">Peru</option>
-                        </select>
-                    </div>
-                    
-                </div>
-                <div>
-                    <label for="observaciones">Ingrese dudas</label>
-                    <div>
-                        <textarea type="text" name="observaciones"></textarea>
-                    </div>
-                    
-                    <div>
-                        <input type="submit" value="Enviar info" />
-                        <input type="reset" value="Borrar info" />
-                    </div>
-                </div>
-                <div>
-                    <div>Acepta términos y condiciones</div>
-            <input type="checkbox" name="acepta" value="1" />
-            
-            <input type="submit" value="Enviar" />
-                </div>
-            </fieldset>
-        </form>
-        
+        <div class="form-container">
+            <form action="#" method="post" class="contact-form">
+                <label for="name">Tu nombre</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Ingrese su consulta o comentario</label>
+                <textarea id="message" name="message" required></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
     </main>
     <footer>
         <p class="textoCentrado">Nuestras Redes Sociales</p>

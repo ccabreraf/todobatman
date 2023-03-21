@@ -1,0 +1,43 @@
+.form-container {
+    max-width: 600px; 
+    margin: 0 auto; 
+    
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        label {
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #ffff00; 
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            background-color: #f2f2f2; 
+            color: #333; 
+        }
+
+        input[type="submit"] {
+            background-color: #ffff00; 
+            color: #333; 
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+
+            &:hover {
+                background-color: #ffcc00; 
+            }
+        }
+    }
+}
