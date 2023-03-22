@@ -51,6 +51,10 @@ h1 {
 
 .textoCentrado {
   margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
   text-align: center;
 }
 
@@ -74,6 +78,7 @@ h1 {
 }
 
 h2 {
+  text-align: center;
   padding: 40px;
   margin: 10px;
 }
@@ -90,6 +95,15 @@ h2 {
   padding: 20px;
   border: 1px solid rgb(30, 30, 30);
   border-radius: 35px 0px 35px 0px;
+}
+
+.textoIntro {
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: justify;
 }
 
 header {
