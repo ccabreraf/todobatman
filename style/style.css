@@ -61,10 +61,9 @@ h1 {
 }
 
 .imagenTitulo {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  margin-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .intro {
@@ -77,6 +76,20 @@ h1 {
 h2 {
   padding: 40px;
   margin: 10px;
+}
+
+.caja {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: yellow;
+  background: rgb(30, 30, 30);
+  margin: 20px 70px 1px;
+  padding: 25px;
+  overflow: hidden;
+  padding: 20px;
+  border: 1px solid rgb(30, 30, 30);
+  border-radius: 35px 0px 35px 0px;
 }
 
 header {
